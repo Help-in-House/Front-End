@@ -6,13 +6,18 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
 import { FeedComponent } from './feed/feed.component';
+import { ProfileComponent } from './profile/profile.component';
+import { CardsServicesComponent } from './cards-services/cards-services.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     FooterComponent,
-    FeedComponent
+    FeedComponent,
+    ProfileComponent,
+    CardsServicesComponent,
   ],
   imports: [
     BrowserModule,
