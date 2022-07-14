@@ -3,8 +3,16 @@
         <img class="img" src="../../assets/img/Help in House (somente logo).png" alt="Logo Help in House">
 
         <a class="text-light" routerLink="/feed"> <i class="fa fa-home me-4 fs-5" aria-hidden="true"></i></a>
-        <a class="text-light" href=""> <i class="fa fa-search me-4 fs-5" aria-hidden="true"></i></a>
+
+        
+          <a><i type="button" data-bs-toggle="collapse" data-bs-target=".navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="fa fa-search me-4 fs-5 text-light" aria-hidden="true"></i></a> 
+        
+
+        <!-- <a class="text-light" href=""> <i class="fa fa-search me-4 fs-5" aria-hidden="true"></i></a> -->
+
         <a class="text-light" routerLink="/profile"> <i class="fa fa-user-circle  fs-5" aria-hidden="true"></i></a>
+
         <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <i class="fa fa-bars fs-5 text-light" aria-hidden="true"></i>
@@ -13,12 +21,12 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
+                    <a class="nav-link text-light" href="#">Link</a>
                 </li>
-                <li class="nav-item dropdown">
+                <!-- <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                         data-bs-toggle="dropdown" aria-expanded="false">
                         Dropdown
@@ -31,14 +39,13 @@
                         </li>
                         <li><a class="dropdown-item" href="#">Something else here</a></li>
                     </ul>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link disabled">Disabled</a>
-                </li>
+                </li> -->
             </ul>
+        </div>
+        <div class="collapse navbar-collapse navbarSupportedContent mt-2 mb-2">
             <form class="d-flex">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">Search</button>
+                <input class="form-control me-2 rounded-pill border-none" type="search" placeholder="O que procura?" aria-label="Search">
+                <button class="btn btn-outline-warning rounded-pill" type="submit">Pesquisar</button>
             </form>
         </div>
     </div>

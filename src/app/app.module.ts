@@ -8,6 +8,9 @@ import { FooterComponent } from './footer/footer.component';
 import { FeedComponent } from './feed/feed.component';
 import { ProfileComponent } from './profile/profile.component';
 import { CardsServicesComponent } from './cards-services/cards-services.component';
+import { ProfessionalsComponent } from './professionals/professionals.component';
+import { RegisterComponent } from './register/register.component';
+import { LoginComponent } from './login/login.component';
 
 
 @NgModule({
@@ -18,6 +21,9 @@ import { CardsServicesComponent } from './cards-services/cards-services.componen
     FeedComponent,
     ProfileComponent,
     CardsServicesComponent,
+    ProfessionalsComponent,
+    RegisterComponent,
+    LoginComponent,
   ],
   imports: [
     BrowserModule,
