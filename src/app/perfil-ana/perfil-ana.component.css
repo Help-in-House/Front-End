@@ -1,0 +1,15 @@
+.perfil-size {
+    width: 10rem;
+    height: 10rem;
+}
+.star-size {
+    width: 7rem;
+}
+
+.img-size {
+    width: 24rem !important;
+}
+
+.bg {
+    background-color: #252525;
+   }

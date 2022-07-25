@@ -9,8 +9,9 @@ export class FeedComponent implements OnInit {
 
   constructor() { }
 
-  ngOnInit(): void {
+  ngOnInit() {
+    window.scroll(0,0)
+    alert("Atenção! Esse site é estático e experimental, ou seja, apenas visual.")
   }
-
 }
 

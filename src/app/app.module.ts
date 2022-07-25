@@ -11,6 +11,10 @@ import { CardsServicesComponent } from './cards-services/cards-services.componen
 import { ProfessionalsComponent } from './professionals/professionals.component';
 import { RegisterComponent } from './register/register.component';
 import { LoginComponent } from './login/login.component';
+import { RegisterAutonomousComponent } from './register-autonomous/register-autonomous.component';
+import { ProfileAutonomousComponent } from './profile-autonomous/profile-autonomous.component';
+import { PerfilAnaComponent } from './perfil-ana/perfil-ana.component';
+import { ChatAnaComponent } from './chat-ana/chat-ana.component';
 
 
 @NgModule({
@@ -24,6 +28,10 @@ import { LoginComponent } from './login/login.component';
     ProfessionalsComponent,
     RegisterComponent,
     LoginComponent,
+    RegisterAutonomousComponent,
+    ProfileAutonomousComponent,
+    PerfilAnaComponent,
+    ChatAnaComponent,
   ],
   imports: [
     BrowserModule,
